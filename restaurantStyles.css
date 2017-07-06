@@ -12,3 +12,7 @@ a{ color: black;
 address {
     color:grey;
 }
+
+h1 {
+    font-family:Arial, Helvetica, sans-serif;
+}
