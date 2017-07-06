@@ -1,0 +1,11 @@
+Total Height
+20+1+10+150+10+1+20 = 212px
+
+Total Width
+20+1+10+400+10+1+20= 462px
+
+Browser calculated Height
+1+10+150+10+1 = 172px
+
+Browser calculated Width
+1+10+400+10+1 = 422px
