@@ -1,0 +1,14 @@
+a{ color: black;
+    border-style:solid;
+    border-width: 1px 4px 4px 1px;
+    text-decoration: none;
+    padding: 4px;
+    border-color: lightblue darkblue darkblue lightblue;
+}
+    a:visited {color: grey}
+    a:hover{color:darkblue}
+    a:active{color:lightblue}
+
+address {
+    color:grey;
+}
