@@ -6,8 +6,8 @@ a{ color: black;
     border-color: lightblue darkblue darkblue lightblue;
 }
     a:visited {color: grey}
-    a:hover{color:darkblue}
-    a:active{color:lightblue}
+    a:hover{color:darkblue; font-weight:bold;}
+    a:active{color:lightblue; text-decoration:none;}
 
 address {
     color:grey;
