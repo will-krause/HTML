@@ -5,22 +5,47 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Krause Tavern Home</title>
-        <link href="css/restaurantStyles.css"
+        <!-- <link href="css/restaurantStyles.css"
             rel="stylesheet"
-            type="text/css"/>
+            type="text/css"/> -->
         <link href="css/bootstrap.min.css"
             rel="stylesheet"
             type="text/css">
         <link href="css/bootstrap-theme.min.css"
             rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
     </head>
     <body>
+        <noscript>This page requires the use of javascript. Please enable Javascript in your browser now.</noscript>
         <div align="center">
             <h1>Krause Tavern</h1>
         </div><br/>
-        <div class="Jumbotron">
-            <h2>New Location Open!</h2>
+        <div id="mycarousel" class="carousel slide" data-ride="carousel">
+           <ol class="carousel-indicators">
+               <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+               <li data-target="#mycarousel" data-slide-to="1"></li>
+               <li data-target="#mycarousel" data-slide-to="2"></li>
+           </ol>
+            <div class="carousel-inner" align="center">
+                <div class="item active">
+                    <h3>We're opening a new location!</h3>
+                </div>
+                <div class="item">
+                    <h3>We're rolling out our seasonal menu, with special options for this season</h3>
+                </div>
+                <div class="item">
+                    <h3>The Drink of the Month is SG Special Brew</h3>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#mycarousel" data-slide="prev" border-style="none">
+                <span class="icon-prev" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#mycarousel" data-slide="next" border-style="none">
+                <span class="icon-next" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
         <hr>
         <div id="navigation">
